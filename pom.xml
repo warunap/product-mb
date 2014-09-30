@@ -377,7 +377,11 @@
     </build>
 
     <properties>
+<<<<<<< HEAD
         <wso2carbon.old.version>4.2.0</wso2carbon.old.version>
+=======
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+>>>>>>> 8c57856afa83a679398d9f188d1c1dd0d1ed9c70
 	    <jline.version>1.0</jline.version>
         <carbon.version>4.3.0-SNAPSHOT</carbon.version>
         <log4j.version>1.2.13</log4j.version>

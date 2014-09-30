@@ -22,7 +22,7 @@ import static org.testng.Assert.assertTrue;
  */
 public class TopicClusterTestCase extends MBIntegrationBaseTest {
 
-    private static final Log log = LogFactory.getLog(QueueTestCase.class);
+    private static final Log log = LogFactory.getLog(TopicClusterTestCase.class);
     private AutomationContext automationContext1;
     private AutomationContext automationContext2;
     private TopicAdminClient topicAdminClient1;
