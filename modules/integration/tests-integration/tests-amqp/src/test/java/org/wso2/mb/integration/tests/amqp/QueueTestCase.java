@@ -38,7 +38,7 @@ public class QueueTestCase extends MBIntegrationBaseTest{
         AndesClientUtils.sleepForInterval(15000);
     }
 
-    @Test(groups = "wso2.mb", description = "Single queue send-receive test case")
+    @Test(groups = "wso2.mb", description = "Single queue send-receive test case", enabled = true)
     public void performSingleQueueSendReceiveTestCase() {
         Integer sendCount = 1000;
         Integer runTime = 20;
@@ -69,7 +69,7 @@ public class QueueTestCase extends MBIntegrationBaseTest{
     }
 
 
-    @Test(groups = "wso2.mb", description = "subscribe to a topic and send message to a queue which has the same name as queue")
+    @Test(groups = "wso2.mb", description = "subscribe to a topic and send message to a queue which has the same name as queue", enabled = false)
     public void performSubTopicPubQueueTestCase() {
 
         Integer sendCount = 1000;
@@ -96,7 +96,7 @@ public class QueueTestCase extends MBIntegrationBaseTest{
     }
 
 
-    @Test(groups = "wso2.mb", description = "send large number of messages to a queue which has two consumers")
+    @Test(groups = "wso2.mb", description = "send large number of messages to a queue which has two consumers", enabled = false)
     public void performManyConsumersTestCase() {
 
         Integer sendCount = 3000;

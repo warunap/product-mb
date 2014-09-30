@@ -101,10 +101,26 @@
                 <artifactId>org.wso2.carbon.event.client.stub</artifactId>
                 <version>${carbon.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.wso2.carbon</groupId>
                 <artifactId>org.wso2.carbon.event.client</artifactId>
                 <version>${carbon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon</groupId>
+                <artifactId>org.wso2.carbon.event.stub</artifactId>
+                <version>${carbon.platform.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon</groupId>
+                <artifactId>org.wso2.carbon.andes.stub</artifactId>
+                <version>4.2.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.carbon</groupId>
+                <artifactId>org.wso2.carbon.andes</artifactId>
+                <version>${carbon.platform.version}</version>
             </dependency>
 
             <!--Dependencies for integration tests  -->
@@ -361,6 +377,7 @@
     </build>
 
     <properties>
+        <wso2carbon.old.version>4.2.0</wso2carbon.old.version>
 	    <jline.version>1.0</jline.version>
         <carbon.version>4.3.0-SNAPSHOT</carbon.version>
         <log4j.version>1.2.13</log4j.version>
